@@ -37,6 +37,8 @@ SOCKET_TIMEOUT = 2
 
 # Root directory for web files (using tilde expansion for home directory)
 WEBROOT = "~/p/python/http-server/WEB-ROOT"
+#CHANGE THIS VALUE TO THE WORKING DIRECTORY FOR YOUR ENVIORNMENT
+
 
 
 def get_file_data(file_name):
