@@ -441,6 +441,10 @@ if __name__ == "__main__":
     server_logger.info("=" * 50)
     server_logger.info("HTTP Server Starting")
     server_logger.info("=" * 50)
-    
+
+    #asserts for http request validation
+    assert validate_http_request("GET / HTTP/1.1\r\n\r\n")[0] is True
+    assert validate_http_request("POST / HTTP/1.1\r\n\r\n")[0] is False
+ 
     # Call the main handler function
     main()
