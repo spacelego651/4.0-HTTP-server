@@ -37,16 +37,13 @@ REDIRECTION_DICTIONARY = {
 # Character encoding for text-based files and HTTP headers
 UTF = "utf-8"
 
-# Maximum number of pending connections in the server queue
+# Maximum number of pending connections
 QUEUE_SIZE = 10
 
-# Server listening address (0.0.0.0 means all available interfaces)
 IP = '0.0.0.0'
-
-# Server listening port
 PORT = 8080
 
-# Socket timeout in seconds for client connections
+# Socket timeout in seconds
 SOCKET_TIMEOUT = 2
 
 # Root directory for web files (using tilde expansion for home directory)
